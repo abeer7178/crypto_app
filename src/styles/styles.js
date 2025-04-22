@@ -1,0 +1,212 @@
+import { StyleSheet } from 'react-native';
+
+export const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    paddingTop:30,
+    backgroundColor: '#FFF',
+    paddingHorizontal: 16,
+  },
+  scrollContent: {
+    paddingBottom: 20,
+  },
+  header: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    marginTop: 20,
+    marginBottom: 16,
+  },
+  logo: {
+    fontSize: 20,
+    fontWeight: 'bold',
+    color: '#000',
+  },
+  notificationContainer: {
+    position: 'relative',
+  },
+  notificationDot: {
+    position: 'absolute',
+    top: -2,
+    right: -2,
+    width: 10,
+    height: 10,
+    borderRadius: 5,
+    backgroundColor: '#1E90FF',
+  },
+  headerTitle: {
+    fontSize: 18,
+    fontWeight: 'bold',
+    color: '#000',
+  },
+  balanceContainer: {
+    alignItems: 'center',
+    marginBottom: 20,
+  },
+  balanceLabel: {
+    fontSize: 14,
+    color: '#78909C',
+    fontWeight: '500',
+  },
+  balanceApy: {
+    fontSize: 14,
+    color: '#00C853',
+    fontWeight: 'bold',
+    marginVertical: 4,
+  },
+  balanceAmount: {
+    fontSize: 40,
+    fontWeight: 'bold',
+    color: '#000',
+  },
+  cryptoIcons: {
+    flexDirection: 'row',
+    marginTop: 8,
+  },
+  cryptoIcon: {
+    fontSize: 24,
+    marginHorizontal: 4,
+  },
+  searchContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    backgroundColor: '#F5F5F5',
+    borderRadius: 30,
+    marginBottom: 20,
+    borderWidth: 1,
+    borderColor: '#F5F5F5',
+  },
+  searchIcon: {
+    marginLeft: 12,
+  },
+  searchInput: {
+    flex: 1,
+    padding: 12,
+    fontSize: 16,
+    color: 'black',
+  },
+  actionsGrid: {
+        flexDirection: 'row',
+        flexWrap: 'wrap',
+        justifyContent: 'space-between',
+        marginBottom: 20,
+      },
+      actionItem: {
+        width: '22%',
+        alignItems: 'center',
+        marginBottom: 12,
+      },
+      actionButton: {
+        width: '100%',
+        aspectRatio: 1, // Makes the button square
+        alignItems: 'center',
+        justifyContent: 'center',
+        backgroundColor: 'white', // Matches the UI's light gray background
+        borderRadius: 12,
+        borderWidth: 1,
+        borderColor: '#E0E0E0',
+      },
+      actionText: {
+        fontSize: 12,
+        marginTop: 8,
+        textAlign: 'center',
+        color: '#000',
+        fontWeight: '500',
+      },
+  favoritesCard: {
+    backgroundColor: '#FFF2D1',
+    padding: 16,
+    borderRadius: 12,
+    marginBottom: 20,
+    borderWidth: 1,
+    borderColor: '#E0E0E0',
+  },
+  favoritesTitle: {
+    fontSize: 16,
+    fontWeight: 'bold',
+    color: '#000',
+  },
+  favoritesSubtitle: {
+    fontSize: 14,
+    color: '#78909C',
+    marginVertical: 8,
+    lineHeight: 20,
+  },
+  favoritesLink: {
+    fontSize: 14,
+    color: '#1E90FF',
+    fontWeight: 'bold',
+  },
+  keySectionsGrid: {
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    justifyContent: 'space-between',
+  },
+  sectionCard: {
+    width: '48%',
+    backgroundColor: '#FFFFFF',
+    padding: 16,
+    borderRadius: 16,
+    marginBottom: 16,
+    borderWidth: 1,
+    borderColor: '#EFEFEF',
+  },
+  iconWrapper: {
+    padding: 10,
+    borderRadius: 12,
+    alignSelf: 'flex-start',
+    marginBottom: 12,
+  },
+  sectionTitle: {
+    fontSize: 14,
+    fontWeight: '500',
+    color: '#333333',
+    marginBottom: 8,
+  },
+  actionRow: {
+        flexDirection: 'row',
+        alignItems: 'center',
+      },
+      actionText: {
+        color: '#1E90FF',
+        fontSize: 14,
+        fontWeight: '500',
+        marginRight: 6,
+      },
+  sectionText: {
+    paddingBottom: 20,
+    paddingTop: 10,
+    fontSize: 10,
+    color: '#000',
+    fontWeight: 'bold',
+  },
+  favoriteItem: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    backgroundColor: '#F5F5F5',
+    padding: 16,
+    borderRadius: 12,
+    marginBottom: 12,
+    borderWidth: 1,
+    borderColor: '#E0E0E0',
+  },
+  favoriteText: {
+    flex: 1,
+    fontSize: 16,
+    marginLeft: 12,
+    color: '#000',
+    fontWeight: '500',
+  },
+  addFavoriteButton: {
+    backgroundColor: '#1E90FF',
+    padding: 16,
+    borderRadius: 12,
+    alignItems: 'center',
+    marginVertical: 16,
+  },
+  addFavoriteText: {
+    fontSize: 16,
+    color: '#FFF',
+    fontWeight: 'bold',
+  },
+});
